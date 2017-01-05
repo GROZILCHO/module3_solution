@@ -80,11 +80,21 @@ section a {
 /******* Large device only *******/
 
 @media (min-width: 1200px) {
+  .navbar-brand {
+    position: absolute;
+    left: 80px;
+    bottom: 0;
+    }
   }
 
 /******* Medium devices only *******/
 @media (min-width: 992px) and (max-width: 1199px) {
   /* HEADER */
+  .navbar-brand {
+    position: absolute;
+    left: 50px;
+    bottom: 0;
+  }
   .navbar-brand h1 { /* Restaurant name */
     padding-top: 0px;
     margin-left: 0px;
@@ -100,6 +110,9 @@ section a {
 /******* Small devices only *******/
 @media (min-width: 768px) and (max-width: 991px) {
   .navbar-brand {
+    position: absolute;
+    left: 50px;
+    bottom: 0;
     padding-top: 10px;
     height: 50px;
 
